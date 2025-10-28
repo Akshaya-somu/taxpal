@@ -1,5 +1,4 @@
-const BudgetService = require("./budget.service");
-const budgetService = new BudgetService();
+
 
 // Create a new budget
 exports.createBudget = async (req, res) => {
