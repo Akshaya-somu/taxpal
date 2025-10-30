@@ -1,7 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "angular.json", "use": "@vercel/static-build", "config": { "distDir": "dist/client" } }
+    {
+      "src": "angular.json",
+      "use": "@vercel/angular"
+    }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
